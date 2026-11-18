@@ -2,6 +2,10 @@
 
 ##  1 - PART 0: Setup Next.js application with TypeScript, Tailwind CSS, shadcn/ui
 
+```
+[https://www.youtube.com/watch?v=N4meIif7Jtc&t=234s]
+```
+
 ### 1.1 Create project
 
 ```
@@ -64,3 +68,36 @@ npx shadcn@3.3.1 add button label input sonner
 ```
 npm install --save-dev --save-exact @biomejs/biome
 ```
+
+## 2 - PART 1: Email and Password Authentication (CLIENT SIDE)
+
+```
+[https://www.youtube.com/watch?v=N4meIif7Jtc&t=468s]
+```
+
+### 2.1 Install Better Auth
+
+
+```
+1. Installation
+
+npm install better-auth@1.7.25
+
+2. Set environment variables
+
+File: .env
+BETTER_AUTH_SECRET="g8xBEIEdViADnDulCGH0TgCcRrYCUAf1"
+
+3. Set Base URL
+
+File: .env
+BETTER_AUTH_URL=http://localhost:3000 # Base URL of your app
+
+4. Set Next Public API Url
+
+File: .env
+NEXT_PUBLIC_API_URL="http://localhost:3000"
+```
+
+Current: 10:17
+
